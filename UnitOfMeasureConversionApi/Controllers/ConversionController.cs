@@ -20,7 +20,7 @@ namespace UnitOfMeasureConversionApi.Controllers
             return number / 16;
         }
 
-        [HttpGet("remtopix", Name = "GetRemToPx")]
+        [HttpGet("remtopx", Name = "GetRemToPx")]
         [ProducesResponseType(typeof(double), StatusCodes.Status200OK)]
         public double GetRemToPx(double number)
         {
